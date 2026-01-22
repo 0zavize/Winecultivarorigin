@@ -1,0 +1,6 @@
+Name: Dorcas Michael
+Matric Number: 250000084
+Machine Learning Algorithm Used: Logistic Regression
+Model Persistence Method Used: Joblib
+Live URL: 
+GitHub Repository Link:
