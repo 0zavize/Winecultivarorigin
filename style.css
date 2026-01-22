@@ -1,0 +1,95 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #5f0a87, #a4508b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container {
+    background: #ffffff;
+    width: 420px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Page title */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5f0a87;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #5f0a87;
+    box-shadow: 0 0 4px rgba(95, 10, 135, 0.4);
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5f0a87;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #4b086b;
+}
+
+/* Prediction result box */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f4e9fb;
+    border-left: 5px solid #5f0a87;
+    border-radius: 6px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Footer text (optional) */
+.footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
